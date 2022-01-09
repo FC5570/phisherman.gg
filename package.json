@@ -1,0 +1,23 @@
+{
+  "name": "phisherman.js",
+  "version": "1.0.0",
+  "description": "A wrapper for https://phisherman.gg/",
+  "main": "dist/index.js",
+  "repository": "https://github.com/FC5570/phisherman.js",
+  "author": "FC5570",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b src",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "phin": "^3.6.1"
+  },
+  "devDependencies": {
+    "@sapphire/prettier-config": "^1.2.7",
+    "@sapphire/ts-config": "^3.1.6",
+    "@types/node": "^17.0.8"
+  },
+  "packageManager": "yarn@3.1.1",
+  "prettier": "@sapphire/prettier-config"
+}
