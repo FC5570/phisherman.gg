@@ -1,47 +1,47 @@
 {
-  "name": "phisherman.js",
-  "version": "0.0.1",
-  "description": "A wrapper for https://phisherman.gg/",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "author": "FC5570",
-  "license": "MIT",
-  "exports": {
-    ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FC5570/phisherman.js"
-  },
-  "bugs": {
-    "url": "https://github.com/FC5570/phisherman.js/issues"
-  },
-  "homepage": "https://github.com/FC5570/phisherman.js#readme",
-  "keywords": [
-    "phisherman",
-    "phisherman.gg",
-    "discord",
-    "discord-scam",
-    "discord-phish"
-  ],
-  "scripts": {
-    "get-esm": "gen-esm-wrapper dist/index.js dist/index.mjs",
-    "prepublish": "tsc -b src && yarn get-esm",
-    "format": "prettier --write ."
-  },
-  "dependencies": {
-    "phin": "^3.6.1"
-  },
-  "devDependencies": {
-    "@sapphire/prettier-config": "^1.2.7",
-    "@sapphire/ts-config": "^3.1.6",
-    "@types/node": "^17.0.8",
-    "gen-esm-wrapper": "^1.1.3"
-  },
-  "packageManager": "yarn@3.1.1",
-  "prettier": "@sapphire/prettier-config"
+	"name": "phisherman.js",
+	"version": "0.0.1",
+	"description": "A wrapper for https://phisherman.gg/",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"author": "FC5570",
+	"license": "MIT",
+	"exports": {
+		".": {
+			"require": "./dist/index.js",
+			"import": "./dist/index.mjs"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FC5570/phisherman.js"
+	},
+	"bugs": {
+		"url": "https://github.com/FC5570/phisherman.js/issues"
+	},
+	"homepage": "https://github.com/FC5570/phisherman.js#readme",
+	"keywords": [
+		"phisherman",
+		"phisherman.gg",
+		"discord",
+		"discord-scam",
+		"discord-phish"
+	],
+	"scripts": {
+		"get-esm": "gen-esm-wrapper dist/index.js dist/index.mjs",
+		"prepublish": "tsc -b src && yarn get-esm",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"phin": "^3.6.1"
+	},
+	"devDependencies": {
+		"@sapphire/prettier-config": "^1.2.7",
+		"@sapphire/ts-config": "^3.1.6",
+		"@types/node": "^17.0.8",
+		"gen-esm-wrapper": "^1.1.3"
+	},
+	"packageManager": "yarn@3.1.1",
+	"prettier": "@sapphire/prettier-config"
 }
