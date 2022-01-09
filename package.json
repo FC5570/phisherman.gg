@@ -1,5 +1,5 @@
 {
-	"name": "phisherman.js",
+	"name": "@fc5570/phisherman.js",
 	"version": "0.0.1",
 	"description": "A wrapper for https://phisherman.gg/",
 	"main": "dist/index.js",
