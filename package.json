@@ -1,6 +1,6 @@
 {
 	"name": "@fc5570/phisherman.js",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A wrapper for https://phisherman.gg/",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
