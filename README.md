@@ -25,7 +25,7 @@ client.check('disczrd.com').then(console.log); // { classification: 'malicious',
 client.report('https://dicsords-gifted.ru/nitro').then(console.log); // { success: false, message: 'Domain already exists' }
 ```
 
-# API
+## API
 
 ### PhishermanClient.constructor(options)
 
