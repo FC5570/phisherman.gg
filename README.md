@@ -12,7 +12,7 @@ yarn add phisherman.js
 ## Example
 
 ```typescript
-import { PhishermanClient } from 'phisherman.js';
+import { PhishermanClient } from '@fc5570/phisherman.js';
 
 const client = new PhishermanClient({
 	apiKey: '<your-api-key>'
