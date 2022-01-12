@@ -1,18 +1,18 @@
-# phisherman.js
+# phisherman.gg
 
 A NodeJS wrapper for [phisherman](https://phisherman.gg/) API.
 
 ## Installation
 
 ```
-npm install phisherman.js
-yarn add phisherman.js
+npm install phisherman.gg
+yarn add phisherman.gg
 ```
 
 ## Example
 
 ```typescript
-import { PhishermanClient } from '@fc5570/phisherman.js';
+import { PhishermanClient } from '@fc5570/phisherman.gg';
 
 const client = new PhishermanClient({
 	apiKey: '<your-api-key>'
